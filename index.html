@@ -7,26 +7,14 @@
 
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
-  <a href="home.html" class="w3-button w3-bar-item" id="home">Home</a>
-  <a href="about.html" class="w3-button w3-bar-item" id="about">About</a>
+  <a href="#section" data-url="home.html" class="w3-button w3-bar-item" id="home">Home</a>
+  <a href="#section" data-url="about.html" class="w3-button w3-bar-item" id="about">About</a>
   <a href="#tour" class="w3-button w3-bar-item" id="tour">Tour</a>
   <a href="#contact" class="w3-button w3-bar-item" id="contact">Contact</a>
 </nav>
-<script>
-$(function() {
-    var $menu = $('#menu'), 
-        $target = $('#target');
 
-    $menu.on('click', '> a', function(event) {
-        var $this = $(this);
-        event.preventDefault();
-        $target.load($this.attr('href'));
-    });
-});  
-</script>
-<div id="target">
-    <!-- content is being loaded here from other .html files -->
-</div>
+<section id="section">
+</section>
 </body>
 </html>
 
