@@ -4,6 +4,28 @@ Hello World!
 
 Welcome to my GitHub page. I would like to show a few things that relates to me. :bowtie:
 
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+And if you'd like to use syntax highlighting, include the language:
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
