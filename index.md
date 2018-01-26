@@ -19,7 +19,7 @@ if (isAwesome){
 
 And if you'd like to use syntax highlighting, include the language:
 
-```javascript
+```C#
 if (isAwesome){
   return true
 }
