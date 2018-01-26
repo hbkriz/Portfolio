@@ -3,17 +3,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./css/w3.css">
+<head>
+        <script type="text/javascript">
+            function loadPage(href)
+            {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", href, false);
+                xmlhttp.send();
+                return xmlhttp.responseText;
+            }
+        </script>
+</head>  
 <body>
 
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
-  <a href="#section" data-url="home.html" class="w3-button w3-bar-item" id="home">Home</a>
+  <a onClick="document.getElementById('bottom').innerHTML=loadPage('home.html');" class="w3-button w3-bar-item">Home</a>
   <a href="#section" data-url="about.html" class="w3-button w3-bar-item" id="about">About</a>
   <a href="#tour" class="w3-button w3-bar-item" id="tour">Tour</a>
   <a href="#contact" class="w3-button w3-bar-item" id="contact">Contact</a>
 </nav>
 
-<section id="section">
+<div id="bottom"></div>
 </section>
 </body>
 </html>
