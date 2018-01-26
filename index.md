@@ -2,7 +2,7 @@
 
 Hello World!
 
-Welcome to my GitHub page. I would like to show a few things that relates to me. :bowtie:
+Welcome to my GitHub page. I would like to show a few things that relates to me.
 
 If you want to embed images, this is how you do it:
 
