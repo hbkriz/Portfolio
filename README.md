@@ -1,5 +1,4 @@
 # Portfolio
+Welcome to my GitHub page. This is a sample SPA using GitHub Pages. :bowtie:
 
-Hello World!
-
-Welcome to my GitHub page. I would like to show a few things that relates to me. :bowtie:
+Try Running my site by clicking [here!](https://hbkriz.github.io/Portfolio/)
