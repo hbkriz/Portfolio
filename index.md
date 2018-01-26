@@ -1,8 +1,8 @@
 ## Welcome to My Page
 
-You can use the [editor on GitHub](https://github.com/hbkriz/Portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hello World!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome to my GitHub page. I would like to show a few things that relates to me.
 
 ### Markdown
 
